@@ -22,7 +22,7 @@ namespace RightingSys.WinForm {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class MaimForm {
+    public class MaimForm {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace RightingSys.WinForm {
         ///   返回此类使用的缓存的 ResourceManager 实例。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RightingSys.WinForm.MaimForm", typeof(MaimForm).Assembly);
@@ -51,7 +51,7 @@ namespace RightingSys.WinForm {
         ///   重写当前线程的 CurrentUICulture 属性。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barAddNew_ImageOptions_Image {
+        public static System.Drawing.Bitmap barAddNew_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barAddNew.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barApprove_ImageOptions_Image {
+        public static System.Drawing.Bitmap barApprove_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barApprove.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barCancel_ImageOptions_Image {
+        public static System.Drawing.Bitmap barCancel_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barCancel.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +93,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barDelete_ImageOptions_Image {
+        public static System.Drawing.Bitmap barDelete_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barDelete.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barExport_ImageOptions_Image {
+        public static System.Drawing.Bitmap barExport_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barExport.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +113,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barFirst_ImageOptions_Image {
+        public static System.Drawing.Bitmap barFirst_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barFirst.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,7 +123,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barImport_ImageOptions_Image {
+        public static System.Drawing.Bitmap barImport_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barImport.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -133,7 +133,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barLast_ImageOptions_Image {
+        public static System.Drawing.Bitmap barLast_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barLast.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -143,7 +143,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barModify_ImageOptions_Image {
+        public static System.Drawing.Bitmap barModify_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barModify.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -153,7 +153,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barNext_ImageOptions_Image {
+        public static System.Drawing.Bitmap barNext_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barNext.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -163,7 +163,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barPreview_ImageOptions_Image {
+        public static System.Drawing.Bitmap barPreview_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barPreview.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -173,7 +173,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barPrevious_ImageOptions_Image {
+        public static System.Drawing.Bitmap barPrevious_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barPrevious.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -183,7 +183,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barPrint_ImageOptions_Image {
+        public static System.Drawing.Bitmap barPrint_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barPrint.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -193,7 +193,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barQuery_ImageOptions_Image {
+        public static System.Drawing.Bitmap barQuery_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barQuery.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -203,7 +203,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barSave_ImageOptions_Image {
+        public static System.Drawing.Bitmap barSave_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barSave.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -213,7 +213,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap barUnApprove_ImageOptions_Image {
+        public static System.Drawing.Bitmap barUnApprove_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("barUnApprove.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -223,7 +223,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAbout_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAbout_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAbout.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -233,7 +233,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAppExit_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAppExit_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAppExit.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -243,7 +243,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAssetsAllot_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAssetsAllot_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAssetsAllot.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -253,7 +253,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAssetsApply_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAssetsApply_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAssetsApply.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -263,7 +263,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAssetsBorrow_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAssetsBorrow_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAssetsBorrow.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -273,7 +273,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAssetsCategory_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAssetsCategory_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAssetsCategory.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -283,7 +283,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAssetsCheck_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAssetsCheck_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAssetsCheck.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -293,7 +293,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAssetsManager_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAssetsManager_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAssetsManager.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -303,7 +303,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAssetsRefund_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAssetsRefund_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAssetsRefund.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -313,7 +313,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAssetsRepair_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAssetsRepair_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAssetsRepair.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -323,7 +323,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAssetsReturn_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAssetsReturn_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAssetsReturn.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -333,7 +333,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnAssetsScrap_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnAssetsScrap_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnAssetsScrap.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -343,7 +343,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnCalc_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnCalc_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnCalc.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -353,7 +353,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnCompanySetup_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnCompanySetup_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnCompanySetup.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -363,7 +363,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnModifyPwd_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnModifyPwd_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnModifyPwd.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -373,7 +373,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnNotepad_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnNotepad_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnNotepad.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -383,7 +383,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnRoleSetup_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnRoleSetup_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnRoleSetup.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -393,7 +393,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnStatusChange_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnStatusChange_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnStatusChange.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -403,7 +403,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnStockSetup_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnStockSetup_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnStockSetup.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -413,7 +413,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnSystemSetup_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnSystemSetup_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnSystemSetup.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -423,7 +423,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnUserLogout_ImageOptions_Image {
+        public static System.Drawing.Bitmap btnUserLogout_ImageOptions_Image {
             get {
                 object obj = ResourceManager.GetObject("btnUserLogout.ImageOptions.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -433,7 +433,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找类似于 (图标) 的 System.Drawing.Icon 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Icon ntyAlert_Icon {
+        public static System.Drawing.Icon ntyAlert_Icon {
             get {
                 object obj = ResourceManager.GetObject("ntyAlert.Icon", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
@@ -443,7 +443,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找类似于 {X=17,Y=17} 的 System.Drawing.Point 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Point ntyAlert_TrayLocation {
+        public static System.Drawing.Point ntyAlert_TrayLocation {
             get {
                 object obj = ResourceManager.GetObject("ntyAlert.TrayLocation", resourceCulture);
                 return ((System.Drawing.Point)(obj));
@@ -453,7 +453,7 @@ namespace RightingSys.WinForm {
         /// <summary>
         ///   查找类似于 {X=116,Y=17} 的 System.Drawing.Point 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Point tabMdiManager_TrayLocation {
+        public static System.Drawing.Point tabMdiManager_TrayLocation {
             get {
                 object obj = ResourceManager.GetObject("tabMdiManager.TrayLocation", resourceCulture);
                 return ((System.Drawing.Point)(obj));

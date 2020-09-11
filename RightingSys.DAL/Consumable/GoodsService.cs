@@ -16,12 +16,7 @@
 #endregion
 
 using RightingSys.Models.ConsumableEntity;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RightingSys.DAL.Consumable
 {
@@ -34,8 +29,8 @@ namespace RightingSys.DAL.Consumable
         /// <returns></returns>
         public bool AddNew(hc_Goods model)
         {
-            
-            
+            throw new System.Exception();
+
         }
 
         /// <summary>
@@ -44,8 +39,8 @@ namespace RightingSys.DAL.Consumable
         /// <param name="model"></param>
         /// <returns></returns>
         public bool Modify(hc_Goods model) 
-        { 
-
+        {
+            throw new System.Exception();
         }
 
         /// <summary>
@@ -55,7 +50,7 @@ namespace RightingSys.DAL.Consumable
         /// <returns></returns>
         public bool Delete(hc_Goods model)
         {
-            
+            throw new System.Exception();
         }
 
         /// <summary>
@@ -64,7 +59,7 @@ namespace RightingSys.DAL.Consumable
         /// <returns></returns>
         public List<hc_Goods> GetAllList() 
         {
-
+            throw new System.Exception();
         }
 
         /// <summary>
@@ -73,8 +68,8 @@ namespace RightingSys.DAL.Consumable
         /// <param name="Id">实体ID</param>
         /// <returns></returns>
         public bool Exists(hc_Goods model)
-        { 
-
+        {
+            throw new System.Exception();
         }
 
         /// <summary>
@@ -84,7 +79,8 @@ namespace RightingSys.DAL.Consumable
         /// <param name="pageIndex">第几页</param>
         /// <returns></returns>
         public List<hc_Goods> GetListPage(int pageSize, int pageIndex)
-        { 
+        {
+            throw new System.Exception();
         }
     }
 }

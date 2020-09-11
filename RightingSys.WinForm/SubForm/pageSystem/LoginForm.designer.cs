@@ -68,7 +68,6 @@
             this.btnCancel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnCancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.ImageOptions.Image")));
             this.btnCancel.Location = new System.Drawing.Point(214, 139);
-            this.btnCancel.LookAndFeel.SkinName = "Springtime";
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(68, 27);
             this.btnCancel.TabIndex = 2;
@@ -92,7 +91,7 @@
             this.CheckRemPwd.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CheckRemPwd.Properties.Appearance.Options.UseFont = true;
             this.CheckRemPwd.Properties.Caption = "记住密码";
-            this.CheckRemPwd.Size = new System.Drawing.Size(87, 19);
+            this.CheckRemPwd.Size = new System.Drawing.Size(87, 20);
             this.CheckRemPwd.TabIndex = 11;
             // 
             // textEdit3
@@ -153,17 +152,17 @@
             this.separatorControl3.Location = new System.Drawing.Point(0, 0);
             this.separatorControl3.Name = "separatorControl3";
             this.separatorControl3.Padding = new System.Windows.Forms.Padding(3);
-            this.separatorControl3.Size = new System.Drawing.Size(342, 8);
+            this.separatorControl3.Size = new System.Drawing.Size(342, 7);
             this.separatorControl3.TabIndex = 15;
             // 
             // separatorControl1
             // 
             this.separatorControl1.AutoSizeMode = true;
             this.separatorControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.separatorControl1.Location = new System.Drawing.Point(0, 169);
+            this.separatorControl1.Location = new System.Drawing.Point(0, 170);
             this.separatorControl1.Name = "separatorControl1";
             this.separatorControl1.Padding = new System.Windows.Forms.Padding(3);
-            this.separatorControl1.Size = new System.Drawing.Size(342, 8);
+            this.separatorControl1.Size = new System.Drawing.Size(342, 7);
             this.separatorControl1.TabIndex = 16;
             // 
             // separatorControl2
@@ -173,7 +172,7 @@
             this.separatorControl2.Location = new System.Drawing.Point(0, 128);
             this.separatorControl2.Name = "separatorControl2";
             this.separatorControl2.Padding = new System.Windows.Forms.Padding(3);
-            this.separatorControl2.Size = new System.Drawing.Size(344, 8);
+            this.separatorControl2.Size = new System.Drawing.Size(344, 7);
             this.separatorControl2.TabIndex = 17;
             // 
             // LoginForm
@@ -196,11 +195,10 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(360, 216);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(352, 201);
+            this.MinimumSize = new System.Drawing.Size(344, 201);
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "登录";

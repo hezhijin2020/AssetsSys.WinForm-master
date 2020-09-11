@@ -8,7 +8,7 @@ namespace RightingSys.Models
     /// <summary>
     /// 退库单
     /// </summary>
-    public class ys_RefundOrder:BaseEntity
+    public class ys_RefundOrder:BusinessEntity
     {
 
         /// <summary>

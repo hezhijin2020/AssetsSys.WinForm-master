@@ -5,7 +5,7 @@ using System.Text;
 
 namespace RightingSys.Models
 {
-    public class ys_AssetsStatusChange : BaseEntity
+    public class ys_AssetsStatusChange : BusinessEntity
     {
         /// <summary>
         /// 操作类型

@@ -8,7 +8,7 @@ namespace RightingSys.Models
     /// <summary>
     /// 报废单实体
     /// </summary>
-    public class ys_ScrapOrder:BaseEntity
+    public class ys_ScrapOrder: BusinessEntity
     {
 
         /// <summary>

@@ -8,7 +8,7 @@ namespace RightingSys.Models
     /// <summary>
     /// 资产实体
     /// </summary>
-    public class ys_Assets:BaseEntity
+    public class ys_Assets: BusinessEntity
     {
         /// <summary>
         /// 条码唯一

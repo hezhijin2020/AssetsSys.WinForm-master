@@ -5,7 +5,7 @@ using System.Text;
 
 namespace RightingSys.Models
 {
-    public class ys_CheckOrder:BaseEntity
+    public class ys_CheckOrder: BusinessEntity
     {
         /// <summary>
         /// 单号

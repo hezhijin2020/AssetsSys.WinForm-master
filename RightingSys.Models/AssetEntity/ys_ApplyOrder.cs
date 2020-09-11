@@ -8,7 +8,7 @@ namespace RightingSys.Models
     /// <summary>
     /// 领用订单
     /// </summary>
-    public class ys_ApplyOrder:BaseEntity
+    public class ys_ApplyOrder:BusinessEntity
     {
         /// <summary>
         /// 单号

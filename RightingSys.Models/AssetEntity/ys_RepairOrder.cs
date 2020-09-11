@@ -8,7 +8,7 @@ namespace RightingSys.Models
     /// <summary>
     /// 维修类实体
     /// </summary>
-    public class ys_RepairOrder:BaseEntity
+    public class ys_RepairOrder: BusinessEntity
     {
         /// <summary>
         /// 单号

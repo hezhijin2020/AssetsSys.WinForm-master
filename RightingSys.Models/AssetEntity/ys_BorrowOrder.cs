@@ -8,7 +8,7 @@ namespace RightingSys.Models
     /// <summary>
     /// 借用实体类
     /// </summary>
-    public class ys_BorrowOrder:BaseEntity
+    public class ys_BorrowOrder: BusinessEntity
     {
          /// <summary>
          /// 借用单号

@@ -460,6 +460,9 @@
     <EmbeddedResource Include="DevReport\rptApplyOrder.resx">
       <DependentUpon>rptApplyOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\pageSystem\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SubForm\pgAssetsManagerForm\AssetsAllotEditForm.resx">
       <DependentUpon>AssetsAllotEditForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -575,12 +578,9 @@
     <EmbeddedResource Include="SubForm\pageBaseinfo\UserEditForm.resx">
       <DependentUpon>UserEditForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SubForm\pageSystem\LoginForm.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MaimForm.resx">
       <DependentUpon>MaimForm.cs</DependentUpon>
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>MaimForm1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
