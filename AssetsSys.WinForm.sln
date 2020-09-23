@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RightingSys.Models", "Right
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RightingSys.WinForm", "RightingSys.WinForm\RightingSys.WinForm.csproj", "{8A85B688-3F86-4829-82A9-CCBDD4E6C4FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HZJ.ORM", "..\..\HZJ.ORM\HZJ.ORM\HZJ.ORM.csproj", "{AD2768F8-EC5C-490C-970F-EDD4BBBB5BB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HZJ.ORM", "HZJ.ORM\HZJ.ORM.csproj", "{AD2768F8-EC5C-490C-970F-EDD4BBBB5BB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

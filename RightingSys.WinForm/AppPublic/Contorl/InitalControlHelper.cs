@@ -163,8 +163,8 @@ namespace RightingSys.WinForm.AppPublic.Control
             ID.Name = "Id";
             ID.FieldName = "Id";
             ID.Caption = "编号";
-            ID.VisibleIndex = 0;
-            ID.Visible = true;
+            ID.VisibleIndex =-1;
+            ID.Visible = false;
 
             DevExpress.XtraTreeList.Columns.TreeListColumn Name = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             Name.Name = "CategoryName";

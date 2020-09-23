@@ -268,14 +268,53 @@
     <Compile Include="SubForm\pgAssetsManagerForm\AssetsScrapAddNewForm.Designer.cs">
       <DependentUpon>AssetsScrapAddNewForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SubForm\pgConsumable\InStockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\pgConsumable\InStockForm.Designer.cs">
+      <DependentUpon>InStockForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\pgConsumable\GoodsEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\pgConsumable\GoodsEditForm.Designer.cs">
+      <DependentUpon>GoodsEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\pgConsumable\GoodsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\pgConsumable\GoodsForm.Designer.cs">
+      <DependentUpon>GoodsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\pgConsumable\GoodsStockQueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\pgConsumable\GoodsStockQueryForm.Designer.cs">
+      <DependentUpon>GoodsStockQueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\pgConsumable\OutStockQueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\pgConsumable\OutStockQueryForm.Designer.cs">
+      <DependentUpon>OutStockQueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\pgConsumable\OutStockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\pgConsumable\OutStockForm.Designer.cs">
+      <DependentUpon>OutStockForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SubForm\pgStatisticalAnalysis\AssetsStatusChangeForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SubForm\pgStatisticalAnalysis\AssetsStatusChangeForm.Designer.cs">
       <DependentUpon>AssetsStatusChangeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Utils\clsControl\clsGridControl.cs">
-      <SubType>Component</SubType>
+    <Compile Include="Utils\clsControl\EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\clsControl\EditForm.Designer.cs">
+      <DependentUpon>EditForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Utils\clsEnum\AssetsStatus.cs" />
     <Compile Include="Utils\clsEnum\FeatureButton.cs" />
@@ -532,8 +571,29 @@
     <EmbeddedResource Include="SubForm\pgBaseForm\CompanyForm.resx">
       <DependentUpon>CompanyForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\pgConsumable\InStockForm.resx">
+      <DependentUpon>InStockForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\pgConsumable\GoodsEditForm.resx">
+      <DependentUpon>GoodsEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\pgConsumable\GoodsForm.resx">
+      <DependentUpon>GoodsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\pgConsumable\GoodsStockQueryForm.resx">
+      <DependentUpon>GoodsStockQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\pgConsumable\OutStockQueryForm.resx">
+      <DependentUpon>OutStockQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\pgConsumable\OutStockForm.resx">
+      <DependentUpon>OutStockForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SubForm\pgStatisticalAnalysis\AssetsStatusChangeForm.resx">
       <DependentUpon>AssetsStatusChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utils\clsControl\EditForm.resx">
+      <DependentUpon>EditForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Utils\ToolForm\F_Func_Selectlist.resx">
       <DependentUpon>F_Func_Selectlist.cs</DependentUpon>
@@ -619,6 +679,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Utils\Image\" />
+    <Folder Include="Utils\ViewModel\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RightingSys.BLL\RightingSys.BLL.csproj">

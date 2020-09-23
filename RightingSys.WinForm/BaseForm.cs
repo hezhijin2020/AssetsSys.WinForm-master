@@ -19,7 +19,6 @@ namespace RightingSys.WinForm
 
         public IMainForm Mainform { get; set; }
 
-
         #endregion
 
         #region  窗体方法初始化方法
@@ -239,8 +238,6 @@ namespace RightingSys.WinForm
         }
         #endregion
 
-        #region MessageBox消息提示方法
-
-        #endregion
+    
     }
 }

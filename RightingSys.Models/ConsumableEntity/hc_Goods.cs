@@ -31,7 +31,7 @@ namespace RightingSys.Models.ConsumableEntity
         /// <summary>
         /// 分类
         /// </summary>
-        public Guid GoodsCategoryId { get; set; }
+        public Guid? GoodsCategoryId { get; set; }
         /// <summary>
         /// 品牌
         /// </summary>
@@ -44,11 +44,8 @@ namespace RightingSys.Models.ConsumableEntity
         /// <summary>
         /// 供应商Id
         /// </summary>
-        public Guid SuplierId { get; set; }
-        /// <summary>
-        /// 供应商
-        /// </summary>
-        public string SuplierName { get; set; }
+        public Guid? GoodsSupplierId { get; set; }
+
         /// <summary>
         /// 单位
         /// </summary>
@@ -56,7 +53,7 @@ namespace RightingSys.Models.ConsumableEntity
         /// <summary>
         /// 采购员
         /// </summary>
-        public string GoodsBuyer { get; set; }
+        public Guid? GoodsBuyerId { get; set; }
         /// <summary>
         /// 物料条码
         /// </summary>
@@ -64,15 +61,17 @@ namespace RightingSys.Models.ConsumableEntity
         /// <summary>
         /// 库存上限
         /// </summary>
-        public int GoodsMaxNum { get; set; } = 20;
+        public int? GoodsMaxCount { get; set; } = 20;
         /// <summary>
         /// 库存下限
         /// </summary>
-        public int GoodsMinNum { get; set; } = 0;
+        public int? GoodsMinCount { get; set; } = 0;
 
         /// <summary>
         /// 价格
         /// </summary>
-        public double Price { get; set; } = 0.0;
+        public decimal? GoodsPrice { get; set; } = 0;
+
+        
     }
 }

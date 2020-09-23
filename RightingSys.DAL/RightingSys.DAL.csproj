@@ -66,12 +66,11 @@
     <Compile Include="Consumable\GoodsService.cs" />
     <Compile Include="IDataService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sql\ExpressionExtend\SQLExpressionVisitor.cs" />
     <Compile Include="Sql\SqlBuilder.cs" />
     <Compile Include="Sql\SqlHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\HZJ.ORM\HZJ.ORM\HZJ.ORM.csproj">
+    <ProjectReference Include="..\HZJ.ORM\HZJ.ORM.csproj">
       <Project>{ad2768f8-ec5c-490c-970f-edd4bbbb5bb4}</Project>
       <Name>HZJ.ORM</Name>
     </ProjectReference>

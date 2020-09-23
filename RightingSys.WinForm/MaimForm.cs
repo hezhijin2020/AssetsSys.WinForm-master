@@ -11,6 +11,7 @@ using DevExpress.XtraBars.Helpers;
 using RightingSys.WinForm.Utils.clsInterface;
 using RightingSys.WinForm.Utils.clsEnum;
 using RightingSys.WinForm.Utils.cls;
+using DevExpress.LookAndFeel;
 
 namespace RightingSys.WinForm
 {
@@ -19,6 +20,8 @@ namespace RightingSys.WinForm
         public MainForm()
         {
             InitializeComponent();
+
+            InitialUserSkin();
         }
 
         private void FrmMain_MdiChildActivate(object sender, System.EventArgs e)
@@ -706,7 +709,6 @@ namespace RightingSys.WinForm
         }
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            InitialUserSkin();
             CloseAllWin();
             Menu_Null();
             if (this.LoginForm != null)
@@ -980,20 +982,19 @@ namespace RightingSys.WinForm
         #region 系统窗体主题
         private void InitialUserSkin()
         {
-            string defaultSkinName = "Springtime";
+            string defaultSkinName = "Summer 2008";
             SkinHelper.InitSkinGallery(skinRibbon);
             defaultSkinName = clsIniConfig.ReadDefaultSkinName() == "" ? defaultSkinName : clsIniConfig.ReadDefaultSkinName();
             DevExpress.LookAndFeel.UserLookAndFeel.Default.SetSkinStyle(defaultSkinName);//skinName为皮肤名 
-            skinRibbon.Caption = "主题：" + defaultSkinName;
+            skinRibbon.Caption = "主题：" + DevExpress.LookAndFeel.UserLookAndFeel.Default.ActiveSkinName;
         }
         private void skinRibbon_Gallery_ItemClick(object sender, GalleryItemClickEventArgs e)
         {
-            string name = string.Empty;
             string caption = string.Empty;
             if (skinRibbon.Gallery == null) return;
-            caption = skinRibbon.Gallery.GetCheckedItems()[0].Caption;//主题的描述
+            caption = skinRibbon.Gallery.GetCheckedItems()[0].Value.ToString();//主题的描述
             clsIniConfig.WriteDefaultSkinName(caption);
-            skinRibbon.Caption = "主题：" + caption + name;
+            skinRibbon.Caption = "主题：" + caption;
         }
 
 
@@ -1057,6 +1058,31 @@ namespace RightingSys.WinForm
         private void btnAssetsCheck_ItemClick(object sender, ItemClickEventArgs e)
         {
             MdiShow(new RightingSys.WinForm.SubForm.pgAssetsManagerForm.AssetsCheckForm(), btnAssetsCheck.Tag);
+        }
+
+        private void btnGoods_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            MdiShow(new RightingSys.WinForm.SubForm.pgConsumable.GoodsForm(), btnGoods.Tag);
+        }
+
+        private void btnInStock_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            MdiShow(new RightingSys.WinForm.SubForm.pgConsumable.InStockForm(), btnInStock.Tag);
+        }
+
+        private void btnOutStock_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            MdiShow(new RightingSys.WinForm.SubForm.pgConsumable.OutStockForm(), btnOutStock.Tag);
+        }
+
+        private void btnStockQuery_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            MdiShow(new RightingSys.WinForm.SubForm.pgConsumable.GoodsStockQueryForm(), btnStockQuery.Tag);
+        }
+
+        private void btnOutStockQuery_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            MdiShow(new RightingSys.WinForm.SubForm.pgConsumable.OutStockQueryForm(), btnOutStockQuery.Tag);
         }
     }
 }

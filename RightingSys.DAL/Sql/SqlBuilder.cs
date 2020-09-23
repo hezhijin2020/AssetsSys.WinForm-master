@@ -15,6 +15,7 @@
 //----------------------------------------------------------------
 #endregion
 
+
 using HZJ.ORM.Mapping;
 using HZJ.ORM.SqlFilter;
 using RightingSys.Models;
@@ -34,7 +35,7 @@ namespace RightingSys.DAL.Sql
         private static string _QuerySQL = null;
         private static string _UpdateSQL =null;
         private static string _DeleteSQL =null;
-
+        private static string _QueryByPageSQL = null;
         private static string _TableName = null;
         private static string _ColumnsString = null;
         private static List<string> _Columns = null;
@@ -43,7 +44,7 @@ namespace RightingSys.DAL.Sql
         /// <summary>
         /// 构造函数
         /// </summary>
-        public SqlBuilder()
+        static SqlBuilder()
         {
             Type type = typeof(T);
             _TableName = type.Name;
@@ -76,6 +77,7 @@ namespace RightingSys.DAL.Sql
             #endregion
         }
 
+
         /// <summary>
         ///获取插入SQL语句
         /// </summary>
@@ -84,6 +86,7 @@ namespace RightingSys.DAL.Sql
         {
             return _InsertSQL;
         }
+
         /// <summary>
         /// 获取查询SQL语句
         /// </summary>
@@ -94,6 +97,30 @@ namespace RightingSys.DAL.Sql
         }
 
         /// <summary>
+        /// 获取指定Id的记录
+        /// </summary>
+        /// <returns></returns>
+        public static string GetOneByIdSQL()
+        {
+            return _QuerySQL+$" Where [Id]=@Id";
+        }
+
+        /// <summary>
+        /// 查询分页数据
+        /// </summary>
+        /// <param name="pageIndex">页码</param>
+        /// <param name="pageSize">每页条数</param>
+        /// <returns></returns>
+        public static string GetListByPage(int pageIndex,int pageSize)
+        {
+            int Num1 = (pageIndex-1)*pageSize;
+            int Num2 = pageIndex * pageSize; ;
+            Type type = typeof(T);
+            _TableName = type.Name;
+            return _QueryByPageSQL = $"select a.* from(select  ROW_NUMBER() over(order by CreateTime,Id asc) RowNum, *from [{_TableName}] ) as a   where RowNum>{Num1} and RowNum=<{Num2}";
+        }
+
+        /// <summary>
         /// 获取更新SQL语句
         /// </summary>
         /// <returns></returns>
@@ -101,6 +128,7 @@ namespace RightingSys.DAL.Sql
         {
             return _UpdateSQL;
         }
+
         /// <summary>
         /// 获取删除SQL语句
         /// </summary>

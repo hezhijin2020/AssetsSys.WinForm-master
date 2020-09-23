@@ -46,6 +46,7 @@
     <Compile Include="AllotOrderManager.cs" />
     <Compile Include="BorrowOrderManager.cs" />
     <Compile Include="CheckOrderManager.cs" />
+    <Compile Include="GoodsManager.cs" />
     <Compile Include="ScrapOrderManager.cs" />
     <Compile Include="RepairOrderManager.cs" />
     <Compile Include="ReturnOrderManager.cs" />

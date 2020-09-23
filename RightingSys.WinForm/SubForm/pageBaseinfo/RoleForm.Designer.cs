@@ -97,7 +97,7 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.tabPane1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1021, 488);
+            this.splitContainerControl1.Size = new System.Drawing.Size(807, 314);
             this.splitContainerControl1.SplitterPosition = 245;
             this.splitContainerControl1.TabIndex = 0;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -110,7 +110,7 @@
             this.gcRole.Location = new System.Drawing.Point(3, 12);
             this.gcRole.MainView = this.gvRole;
             this.gcRole.Name = "gcRole";
-            this.gcRole.Size = new System.Drawing.Size(241, 468);
+            this.gcRole.Size = new System.Drawing.Size(241, 294);
             this.gcRole.TabIndex = 1;
             this.gcRole.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvRole});
@@ -152,9 +152,9 @@
             this.tabPane1.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
             this.tabNavigationPage1,
             this.tabNavigationPage2});
-            this.tabPane1.RegularSize = new System.Drawing.Size(771, 488);
+            this.tabPane1.RegularSize = new System.Drawing.Size(552, 314);
             this.tabPane1.SelectedPage = this.tabNavigationPage1;
-            this.tabPane1.Size = new System.Drawing.Size(771, 488);
+            this.tabPane1.Size = new System.Drawing.Size(552, 314);
             this.tabPane1.TabIndex = 0;
             this.tabPane1.Text = "角色基础信息";
             // 
@@ -165,7 +165,7 @@
             this.tabNavigationPage1.Controls.Add(this.groupControl2);
             this.tabNavigationPage1.Controls.Add(this.groupControl1);
             this.tabNavigationPage1.Name = "tabNavigationPage1";
-            this.tabNavigationPage1.Size = new System.Drawing.Size(753, 442);
+            this.tabNavigationPage1.Size = new System.Drawing.Size(552, 285);
             // 
             // groupControl3
             // 
@@ -174,16 +174,16 @@
             this.groupControl3.Controls.Add(this.sbtnUserRemove);
             this.groupControl3.Controls.Add(this.sbtnUserAdd);
             this.groupControl3.Controls.Add(this.gcUser);
-            this.groupControl3.Location = new System.Drawing.Point(522, 3);
+            this.groupControl3.Location = new System.Drawing.Point(308, 3);
             this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(227, 439);
+            this.groupControl3.Size = new System.Drawing.Size(227, 265);
             this.groupControl3.TabIndex = 1;
             this.groupControl3.Text = "包含的用户信息";
             // 
             // sbtnUserRemove
             // 
             this.sbtnUserRemove.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.sbtnUserRemove.Location = new System.Drawing.Point(165, 403);
+            this.sbtnUserRemove.Location = new System.Drawing.Point(165, 229);
             this.sbtnUserRemove.Name = "sbtnUserRemove";
             this.sbtnUserRemove.Size = new System.Drawing.Size(57, 23);
             this.sbtnUserRemove.TabIndex = 5;
@@ -193,7 +193,7 @@
             // sbtnUserAdd
             // 
             this.sbtnUserAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.sbtnUserAdd.Location = new System.Drawing.Point(102, 403);
+            this.sbtnUserAdd.Location = new System.Drawing.Point(102, 229);
             this.sbtnUserAdd.Name = "sbtnUserAdd";
             this.sbtnUserAdd.Size = new System.Drawing.Size(57, 23);
             this.sbtnUserAdd.TabIndex = 4;
@@ -208,7 +208,7 @@
             this.gcUser.Location = new System.Drawing.Point(2, 21);
             this.gcUser.MainView = this.gvUser;
             this.gcUser.Name = "gcUser";
-            this.gcUser.Size = new System.Drawing.Size(223, 373);
+            this.gcUser.Size = new System.Drawing.Size(223, 199);
             this.gcUser.TabIndex = 0;
             this.gcUser.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvUser});
@@ -256,14 +256,14 @@
             this.groupControl2.Controls.Add(this.gcOU);
             this.groupControl2.Location = new System.Drawing.Point(3, 189);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(511, 253);
+            this.groupControl2.Size = new System.Drawing.Size(297, 79);
             this.groupControl2.TabIndex = 1;
             this.groupControl2.Text = "包含的机构信息";
             // 
             // sbtnOURemove
             // 
             this.sbtnOURemove.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.sbtnOURemove.Location = new System.Drawing.Point(437, 217);
+            this.sbtnOURemove.Location = new System.Drawing.Point(223, 43);
             this.sbtnOURemove.Name = "sbtnOURemove";
             this.sbtnOURemove.Size = new System.Drawing.Size(57, 23);
             this.sbtnOURemove.TabIndex = 3;
@@ -273,7 +273,7 @@
             // sbtnOUAdd
             // 
             this.sbtnOUAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.sbtnOUAdd.Location = new System.Drawing.Point(374, 217);
+            this.sbtnOUAdd.Location = new System.Drawing.Point(160, 43);
             this.sbtnOUAdd.Name = "sbtnOUAdd";
             this.sbtnOUAdd.Size = new System.Drawing.Size(57, 23);
             this.sbtnOUAdd.TabIndex = 2;
@@ -288,7 +288,7 @@
             this.gcOU.Location = new System.Drawing.Point(2, 21);
             this.gcOU.MainView = this.gvOU;
             this.gcOU.Name = "gcOU";
-            this.gcOU.Size = new System.Drawing.Size(507, 187);
+            this.gcOU.Size = new System.Drawing.Size(293, 13);
             this.gcOU.TabIndex = 1;
             this.gcOU.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvOU});
@@ -339,7 +339,7 @@
             this.groupControl1.Controls.Add(this.labelControl1);
             this.groupControl1.Location = new System.Drawing.Point(3, 3);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(511, 167);
+            this.groupControl1.Size = new System.Drawing.Size(297, 167);
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "角色信息";
             // 
@@ -350,7 +350,7 @@
             this.txtID.Location = new System.Drawing.Point(104, 32);
             this.txtID.Name = "txtID";
             this.txtID.Properties.ReadOnly = true;
-            this.txtID.Size = new System.Drawing.Size(390, 20);
+            this.txtID.Size = new System.Drawing.Size(176, 20);
             this.txtID.TabIndex = 12;
             // 
             // labelControl6
@@ -364,7 +364,7 @@
             // sbtnSave
             // 
             this.sbtnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.sbtnSave.Location = new System.Drawing.Point(407, 125);
+            this.sbtnSave.Location = new System.Drawing.Point(193, 125);
             this.sbtnSave.Name = "sbtnSave";
             this.sbtnSave.Size = new System.Drawing.Size(87, 27);
             this.sbtnSave.TabIndex = 10;
@@ -377,7 +377,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSortCode.Location = new System.Drawing.Point(104, 99);
             this.txtSortCode.Name = "txtSortCode";
-            this.txtSortCode.Size = new System.Drawing.Size(390, 20);
+            this.txtSortCode.Size = new System.Drawing.Size(176, 20);
             this.txtSortCode.TabIndex = 6;
             // 
             // txtName
@@ -386,7 +386,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtName.Location = new System.Drawing.Point(104, 67);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(390, 20);
+            this.txtName.Size = new System.Drawing.Size(176, 20);
             this.txtName.TabIndex = 5;
             // 
             // labelControl4
@@ -451,8 +451,8 @@
             this.tlFunc.LookAndFeel.UseWindowsXPTheme = true;
             this.tlFunc.Name = "tlFunc";
             this.tlFunc.OptionsBehavior.Editable = false;
+            this.tlFunc.OptionsView.CheckBoxStyle = DevExpress.XtraTreeList.DefaultNodeCheckBoxStyle.Check;
             this.tlFunc.OptionsView.ShowCaption = true;
-            this.tlFunc.OptionsView.ShowCheckBoxes = true;
             this.tlFunc.OptionsView.ShowColumns = false;
             this.tlFunc.OptionsView.ShowIndicator = false;
             this.tlFunc.ParentFieldName = "ParentId";
@@ -474,7 +474,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1021, 488);
+            this.ClientSize = new System.Drawing.Size(807, 314);
             this.Controls.Add(this.splitContainerControl1);
             this.Name = "RoleForm";
             this.Text = "角色管理";

@@ -11,8 +11,6 @@ namespace RightingSys.WinForm
 {
     static class Program
     {
-     
-
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
@@ -21,7 +19,9 @@ namespace RightingSys.WinForm
         {
             try
             {
+
                 BindExceptionHandler();//异常处理
+
                 BonusSkins.Register();//系统主题
                 SkinManager.EnableFormSkins();
 
